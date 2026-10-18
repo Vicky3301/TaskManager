@@ -5,12 +5,7 @@ A REST API for managing personal tasks, built with **FastAPI**,
 pagination and filtering, JWT-based authentication, user ownership,
 database migrations with Alembic, and automated tests.
 
-> **Project status:** This README documents the features implemented
-> during development. Before deploying, verify that all tests pass and
-> that the Alembic migration history can build the complete schema from
-> a brand-new database. The initial migration may have been created as a
-> baseline after tables already existed, so it may not create those
-> tables on a fresh Docker database.
+
 
 ## Features
 
@@ -369,5 +364,4 @@ intentionally want to remove its stored data.
 
 ## License
 
-Choose and add a license before distributing this project publicly. If
-no license is provided, default copyright rules apply.
+
